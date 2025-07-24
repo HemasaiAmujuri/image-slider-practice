@@ -1,0 +1,39 @@
+html,body {
+    margin : 0px;
+    padding :0px;
+    height : 100%;
+    width : 100%;
+}
+
+.parent {
+    display : flex;
+    justify-content:center;
+    align-items:center;
+    height : 100vh;
+    gap:2%;
+}
+
+.side-by-side{
+    height : 200px;
+    width : 830px;
+    /* background-color: black; */
+    display : flex;
+    justify-content:center;
+    align-items:center;
+    gap : 10px;
+}
+
+
+.images {
+    display : flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width : 750px;
+    gap : 2%;
+}
+
+
+.previous {
+    background-color: lightgray;
+}
